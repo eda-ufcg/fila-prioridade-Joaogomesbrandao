@@ -4,6 +4,26 @@ import java.util.Arrays;
 
 public class RoteiroTest {
     
+	@Test
+	public void meuTest(){
+		Heap heap = new Heap(5);
+		
+		assertTrue(heap.isEmpty());
+		Pair p1 = new Pair("j",10);
+		heap.add(p1);
+		assertTrue(heap.size() == 1);
+		
+		Pair p2 = new Pair("l", 3);
+		heap.add(p2);
+		assertTrue(heap.size() == 2);
+
+		assertTrue("[<j,10>, <l,3>]".equals(heap.toString()));
+		
+		heap.remove();
+		assertTrue("[<l,3>]".equals(heap.toString()));
+
+	}
+
     @Test
 	public void test() {
 		FilaPrioridade heap = new HeapFilaPrioridade(5);

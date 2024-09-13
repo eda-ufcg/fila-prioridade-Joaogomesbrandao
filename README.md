@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome: 
-* Email (@ccc): 
-* Matrícula: 
+* Nome: João Lucas Gomes Brandão
+* Email (@ccc): joao.lucas.gomes.brandao@ccc.ufcg.edu.br
+* Matrícula: 123110397
 
 # Roteiro: Fila de Prioridade
 
